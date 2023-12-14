@@ -9,7 +9,7 @@
 
   <body>
     <!-- Header Section -->
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
 
       <nav>
@@ -32,7 +32,9 @@
           height="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p class="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="./images/post-img.jpg"
@@ -109,7 +111,7 @@
     <aside>
       <h4>Related Posts</h4>
 
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="./images/related-1.jpg"
@@ -118,7 +120,7 @@
             height="75"
           />
           <a href="#" target="_blank">How to learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img
@@ -128,7 +130,7 @@
             height="75"
           />
           <a href="#" target="_blank">The unknown powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img
@@ -138,12 +140,14 @@
             height="75"
           />
           <a href="#" target="_blank">Why Javascript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
 
     <!-- Footer Section -->
-    <footer>Copyright &copy; 2027 by the Code Magazine</footer>
+    <footer class="copyright">
+      <p>Copyright &copy; 2027 by the Code Magazine</p>
+    </footer>
   </body>
 </html>
