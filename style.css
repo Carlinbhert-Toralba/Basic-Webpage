@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -132,4 +132,14 @@ a:active {
 .post-image {
   height: auto;
   width: 100%;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
 }
